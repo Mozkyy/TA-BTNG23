@@ -1,3 +1,160 @@
-*{
-    background-color: beige;
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+:root{
+    --cyan:rgb(13, 202, 240);
+}
+.navbar-toggler-icon {
+    color: #fff;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%2813, 202, 240, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-light .navbar-toggler{
+    border: 1px solid var(--cyan);
+}
+
+.home .carousel-item-active img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.carousel-caption{
+    bottom: 45%;
+    text-align: center;
+}
+
+.carousel-caption h3{
+    color: #fff;
+    font-size: 45px;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.carousel-caption p{
+    width: 60%;
+    margin: auto;
+    font-size: 20px;
+}
+
+.carousel-caption a{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 30px;
+    display: inline-block;
+    background:var(--cyan);
+    margin-top: 15px;
+}
+
+.book .heading{
+    text-transform: uppercase;
+}
+
+.book .row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    align-items: center;
+}
+
+.heading span {
+    font-size: 3.5rem;
+    background: rgba(255, 165, 0, .2);
+    color: var(--cyan);
+    border-radius: .5rem;
+    padding: .2rem 1rem;
+    display:inline-block;
+    
+}
+
+.heading span .space{
+    background: #fff;
+}
+
+.book .row .image {
+    flex: 1 1 40rem;
+}
+
+.book .row .image img {
+    width: 100%;
+}
+
+.book .row form {
+    flex: 1 1 40rem;
+    padding: 2rem;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, .1);
+    border-radius: .5rem;
+}
+
+.book .row form .inputBox {
+    padding: .5rem 0;
+}
+
+.book .row form .inputBox input {
+    width: 100%;
+    padding: 1rem;
+    border: .1rem solid rgba(0, 0, 0, .1);
+    font-size: 1.7rem;
+    color: #333;
+    text-transform: none;
+}
+
+.book .row form .inputBox h3 {
+    font-size: 2rem;
+    padding: 1rem 0;
+    color: #666;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 1rem;
+    background: var(--cyan);
+    color: #fff;
+    padding: .8rem 3rem;
+    border: .2rem solid var(--cyan);
+    cursor: pointer;
+    font-size: 15px;
+}
+.package .heading{
+    text-transform: uppercase;
+}
+
+.package .card .card-body h6 i {
+    color: var(--cyan);
+}
+
+.package .card .card-body .stars i {
+    font-size: 1.7rem;
+    color: var(--cyan);
+}
+
+.package .card .card-body .price {
+    font-size: 20px;
+    color: #333;
+    padding-top: 1rem;
+}
+
+.package .card .card-body .price span {
+    color: #666;
+    font-size: 15px;
+    text-decoration: line-through;
+}
+
+.gallery .heading {
+    text-transform: uppercase;
+}
+
+.review .heading {
+    text-transform: uppercase;
+}
+
+.footer .wm span{
+    color: var(--cyan);
 }

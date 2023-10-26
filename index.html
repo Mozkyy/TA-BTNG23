@@ -3,10 +3,572 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Wisata Indonesia</title>
     <link rel="stylesheet" href="/TA-BTNG23/assets/css/style.css">
+    <!-- css bootstrap  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- link css -->
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <!-- link google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <!-- link font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Deskripsi Web-->
+    <meta name="website-name" content="Wisata Indonesia" />
+    <meta name="keywords" content="HTML, CSS, Bootstrap" />
+    <meta name="author" content="Muhammad Za'im Muzakki" />
+    <meta name="description"content="Sebuah website yang merekomendasikan tempat rekreasi untuk liburan bersama teman, pasangan, dan keluarga anda." />
 </head>
 <body>
-    <h1>Wisata Indonesia</h1>
+    <!-- navbar start -->
+    <nav class="navbar navbar-expand-lg shadow p-3 navbar-light bg-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand fw-bold fs-3 text-light" href="#">WISATA <span class="text-info">INDOESIA</span></a>
+            <button class="navbar-toggler bs-light-border-subtle" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link fs-5 text-light" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-5  text-light m-0 ms-lg-1" href="#book">Book</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-5  text-light m-0 ms-lg-1" href="#package">Package</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-5  text-light m-0 ms-lg-1" href="#gallery">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-5  text-light m-0 ms-lg-1" href="#review">Review</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-5  text-light m-0 ms-lg-1" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- navbar end -->
+
+    <!-- Hero Start -->
+    <section id="home">
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="/assets/img/Bali.jpg" class="d-block w-100">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3>WISATA INDOESIA</h3>
+                            <p>Libur Telah Tiba, Saatnya Berwisata</p>
+                            <p><a href="#package">Lihat Destinasi</a></p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/assets/img/bromo.jpg" class="d-block w-100">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3>WISATA INDOESIA</h3>
+                            <p>Libur Telah Tiba, Saatnya Berwisata</p>
+                            <p><a href="#package">Lihat Destinasi</a></p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/assets/img/labuan-bajo.jpg" class="d-block w-100">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3>WISATA INDOESIA</h3>
+                            <p>Libur Telah Tiba, Saatnya Berwisata</p>
+                            <p><a href="#package">Lihat Destinasi</a></p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+    </section>
+    <!-- Hero End -->
+
+    <!-- Book Start -->
+    <section id="book" class="book">
+        <div class="title text-center mt-5 mb-4">
+            <h1 class="heading fw-bold">
+                <span>b</span>
+                <span>o</span>
+                <span>o</span>
+                <span>k</span>
+                <span>i</span>
+                <span>n</span>
+                <span>g</span>
+            </h1>
+        </div>
+        <div class="row">
+            <div class="image">
+                <img src="/assets/img/book-img.svg" alt="">
+            </div>
+            <form>
+                <div class="inputBox">
+                    <h3>Mau Kemana? </h3>
+                    <input type="text" placeholder="Nama Tempat">
+                </div>
+                <div class="inputBox">
+                    <h3>Berapa Orang</h3>
+                    <input type="number" placeholder="Jumlah Tamu">
+                </div>
+                <div class="inputBox">
+                    <h3>Tanggal Keberangkatan</h3>
+                    <input type="date" class="text-secondary">
+                </div>
+                <div class="inputBox">
+                    <h3>Tanggal Pulang</h3>
+                    <input type="date" class="text-secondary">
+                </div>
+                <input type="submit" class="btn fs-5" value="Pesan Sekarang">
+            </form>
+        </div>
+
+    </section>
+    <!-- Book end -->
+
+    <!-- Package Start -->
+    <section id="package" class="package">
+        <div class="container">
+            <div class="title text-center mt-5 mb-4">
+                <h1 class="heading fw-bold">
+                    <span>p</span>
+                    <span>a</span>
+                    <span>c</span>
+                    <span>k</span>
+                    <span>a</span>
+                    <span>g</span>
+                    <span>e</span>
+                    <span>s</span>
+                </h1>
+            </div>
+            
+            <!-- Destinasi start-->
+            <div class="row gy-4 justify-content-center">
+                <div class="col-12 col-md-4 col-lg-3">
+                    <div class="card">
+                        <img src="/assets/img/pulau-Seribu.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <h6 class="card-title fw-bold"><i class="fas fa-map-marker-alt p-1"></i>Kepulauan Seribu, Jakarta</h6>
+                            <p class="card-text text-secondary" style="text-align: justify;">Kepulauan seribu juga memiliki banyak pulau cantik yang sangat cocok dijadikan destinasi liburan akhir pekan,
+                                beberapa
+                                di antaranya adalah Pulau Kahyangan, Pulau Pabelokan, Pulau Bidadari, Pulau Onrust, dan masih banyak lagi yang
+                                lainnya.</p>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="price"> Rp. 749.000 <span> Rp. 999.000</span> </div>
+                            <a href="#" class="btn">Pesan Sekarang</a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 col-lg-3">
+                    <div class="card">
+                        <img src="/assets/img/p-1.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <h6 class="card-title fw-bold"><i class="fas fa-map-marker-alt p-1"></i>Nusa Dua, Bali</h6>
+                            <p class="card-text text-secondary" style="text-align: justify;">Pulau Seribu Dewa Satu Ini Memang Tidak Perlu Diragukan Lagi Terkait Keindahan Dan Pesonanya Dalam Memikat Para
+                            Wisatawan Dalam Negeri Maupun Mancanegara. Di Bali, Ada Satu Tempat Wisata Yang Begitu Cantik, Yakni Nusa Dua.</p>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="price"> Rp. 2.999.000 <span> Rp. 3.999.000</span> </div>
+                            <a href="#" class="btn">Pesan Sekarang</a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 col-lg-3">
+                    <div class="card">
+                        <img src="/assets/img/bromo.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <h6 class="card-title fw-bold"><i class="fas fa-map-marker-alt p-1"></i>Gunung Bromo, Jawa Timur</h6>
+                            <p class="card-text text-secondary" style="text-align: justify;">Meskipun Bukan Salah Satu Gunung Tertinggi Di Indonesia, Namun Keindahan Gunung Bromo Tidak Ada Duanya Dan Membuat Para
+                            Pengunjung Dapat Merasakan Pemandangan Yang Fantastis Dan Spektakuler.</p>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="price"> Rp. 999.000 <span> Rp. 1.499.000</span> </div>
+                            <a href="#" class="btn">Pesan Sekarang</a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 col-lg-3">
+                    <div class="card">
+                        <img src="/assets/img/prambanan.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <h6 class="card-title fw-bold"><i class="fas fa-map-marker-alt p-1"></i>Prambanan, Jawa Tengah</h6>
+                            <p class="card-text text-secondary" style="text-align: justify;">Candi ini merupakan salah satu warisan budaya dunia yang terkenal dan menjadi salah satu situs arkeologi paling penting
+                            di Indonesia. Prambanan sebuah tempat yang menyajikan keindahan seni
+                            dan warisan budaya Indonesia yang kaya.</p>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <div class="price"> Rp. 799.000 <span> Rp. 999.000</span> </div>
+                            <a href="#" class="btn">Pesan Sekarang</a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 col-lg-3">
+                    <div class="card">
+                        <img src="/assets/img/borobudur.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <h6 class="card-title fw-bold"><i class="fas fa-map-marker-alt p-1"></i>Borobudur, Jawa Tengah</h6>
+                            <p class="card-text text-secondary" style="text-align: justify;">Salah Satu Ikon Wisata Budaya Indonesia Yang Mendunia Lainnya Adalah Candi Borobudur. Sebagai Candi Budha Terbesar Di
+                            Dunia, Candi Yang Dibangun Pada Masa Kerajaan Mataram Kuno Ini Merupakan Warisan Budaya Dan Sejarah Indonesia Yang
+                            Terkenal Akan Arsitektur Yang Memukau.</p>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <div class="price"> Rp. 799.000 <span> Rp. 999.000</span> </div>
+                            <a href="#" class="btn">Pesan Sekarang</a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 col-lg-3">
+                    <div class="card">
+                        <img src="/assets/img/malioboro.jpg.crdownload" class="card-img-top">
+                        <div class="card-body">
+                            <h6 class="card-title fw-bold"><i class="fas fa-map-marker-alt p-1"></i>Malioboro, DIY</h6>
+                            <p class="card-text text-secondary" style="text-align: justify;">Malioboro terus berkembang dengan tetap mempertahankan konsep aslinya dulu, Malioboro jadi pusat kehidupan masyarakat
+                            Yogya. Tempat-tempat strategis seperti Kantor Gubernur DIY, Gedung DPRD DIY, Pasar Induk Beringharjo, Teras Malioboro
+                            hingga Istana Presiden Gedung Agung juga berada di kawasan ini.</p>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="price"> Gratis <span> Rp. 0</span> </div>
+                            <a href="#" class="btn">Pesan Sekarang</a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 col-lg-3">
+                    <div class="card">
+                        <img src="/assets/img/pink beach.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <h6 class="card-title fw-bold"><i class="fas fa-map-marker-alt p-1"></i>Pink Beach, Labuan Bajo</h6>
+                            <p class="card-text text-secondary" style="text-align: justify;">Objek wisata populer di Labuan Bajo yang wajib dikunjungi, antara lain Pink Beach dan Pulau Komodo. Pantai eksotis dan indah ini memiliki pasir berwarna merah muda. Pink Beach atau yang dikenal Pantai Merah di Pulau
+                            Komodo, menjadi satu dari tujuh pantai berpasir merah mudah di dunia.
+                            </p>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="price"> Rp. 2.499.000 <span> Rp. 2.999.000</span> </div>
+                            <a href="#" class="btn">Pesan Sekarang</a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 col-lg-3">
+                    <div class="card">
+                        <img src="/assets/img/labuan-bajo.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <h6 class="card-title fw-bold"><i class="fas fa-map-marker-alt p-1"></i>Labuan Bajo, NTT</h6>
+                            <p class="card-text text-secondary" style="text-align: justify;">Labuan Bajo, Kecamatan Komodo, Kabupaten Manggarai Barat, Nusa Tenggara Timur (NTT), memiliki pesona alam yang
+                            menakjubkan. Ada pantai pasir merah mudah hingga melihat habitat komodo. Objek wisata populer di Labuan Bajo yang wajib dikunjungi, antara lain Pink Beach dan Pulau Komodo.</p>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="price"> Rp. 2.499.000 <span> Rp. 2.999.000</span> </div>
+                            <a href="#" class="btn">Pesan Sekarang</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    <!-- Package End -->
+
+    <!-- Gallery Start -->
+    <section class="gallery" id="gallery">
+        <div class="container">
+            <div class="title text-center mt-5 mb-4">
+                <h1 class="heading fw-bold">
+                    <span>g</span>
+                    <span>a</span>
+                    <span>l</span>
+                    <span>l</span>
+                    <span>e</span>
+                    <span>r</span>
+                    <span>y</span>
+                </h1>
+            </div>
+                <!-- foto -->
+            <div class="row gy-4 justify-content-center">
+                <div class="col-12 col-md-4 col-lg-3">
+                    <div class="box">
+                        <img src="/assets/img/p-1.jpg"  class="img-thumbnail"  alt="">
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 col-lg-3">
+                    <div class="box">
+                        <img src="/assets/img/prambanan-6089719_1920.jpg" class="img-thumbnail" alt="">
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 col-lg-3">
+                    <div class="box">
+                        <img src="/assets/img/g-8.jpeg" class="img-thumbnail" alt="">
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 col-lg-3">
+                    <div class="box">
+                        <img src="/assets/img/g-7.webp" class="img-thumbnail" alt="">
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 col-lg-3">
+                    <div class="box">
+                        <img src="/assets/img/g-9.jpg" class="img-thumbnail" alt="">
+                    </div>
+                </div>
+               <div class="col-12 col-md-4 col-lg-3">
+                    <div class="box">
+                        <img src="/assets/img/g-6.jpg" class="img-thumbnail" alt="">
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 col-lg-3">
+                    <div class="box">
+                        <img src="/assets/img/g-3.jpg" class="img-thumbnail" alt="">
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 col-lg-3">
+                    <div class="box">
+                        <img src="/assets/img/pulau-raja-ampat.jpg" class="img-thumbnail" alt="">
+                    </div>
+                </div>
+            </div>
+
+            
+        </div>
+    </section>
+    <!-- Gallery End -->
+
+    <!-- Review Start -->
+    <section id="review" class="bg-light">
+        <div class="container">
+            <div class="title text-center mt-5 mb-4">
+                <h1 class="heading fw-bold"> 
+                    <span>r</span>
+                    <span>e</span>
+                    <span>v</span>
+                    <span>i</span>
+                    <span>e</span>
+                    <span>w</span>
+                </h1>
+            </div>
+            <div id="carouselExampleControls" class="carousel slide carousel-dark" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="border boder-dark p-5 rounded w-75 mx-auto ">
+                            <div class="d-flex flex-column flex-lg-row gap-3 align-items-start">
+                                <div class="fs-1 border border-dark p-3 py-1 align-items-center rounded-circle">
+                                    <i class="fa-solid fa-person"></i>
+                                </div>
+                                <div class="d-flex flex-column">
+                                    <div class="d-flex align-items-center gap-1">
+                                        <span class="fw-bold fs-4">Budi</span>
+                                        <span class="text-secondary">@BudiPriaGantenk</span>
+                                    </div>
+                                    <p>
+                                        Tempatnya gaada yg mengecewakan sama sekali
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="border boder-dark p-5 rounded w-75 mx-auto ">
+                            <div class="d-flex flex-column flex-lg-row gap-3 align-items-start">
+                                <div class="fs-1 border border-dark p-3 py-1 align-items-center rounded-circle">
+                                    <i class="fa-solid fa-person"></i>
+                                </div>
+                                <div class="d-flex flex-column">
+                                    <div class="d-flex align-items-center gap-1">
+                                        <span class="fw-bold fs-4">Tono</span>
+                                        <span class="text-secondary">@TonoPriaTamvan</span>
+                                    </div>
+                                    <p>
+                                        Bagus bgt tempatnya jadi pengen nagih
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="border boder-dark p-5 rounded w-75 mx-auto ">
+                            <div class="d-flex flex-column flex-lg-row gap-3 align-items-start">
+                                <div class="fs-1 border border-dark p-3 py-1 align-items-center rounded-circle">
+                                    <i class="fa-solid fa-person-dress"></i>
+                                </div>
+                                <div class="d-flex flex-column">
+                                    <div class="d-flex align-items-center gap-1">
+                                        <span class="fw-bold fs-4">Isna</span>
+                                        <span class="text-secondary">@IsnaCweJaksel</span>
+                                    </div>
+                                    <p>
+                                        Omagaa soo beautiful place like me
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="border boder-dark p-5 rounded w-75 mx-auto ">
+                            <div class="d-flex flex-column flex-lg-row gap-3 align-items-start">
+                                <div class="fs-1 border border-dark p-3 py-1 align-items-center rounded-circle">
+                                    <i class="fa-solid fa-person"></i>
+                                </div>
+                                <div class="d-flex flex-column">
+                                    <div class="d-flex align-items-center gap-1">
+                                        <span class="fw-bold fs-4">Andra</span>
+                                        <span class="text-secondary">@andraCwoCool</span>
+                                    </div>
+                                    <p>
+                                        Keren bgt ygy 
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="border boder-dark p-5 rounded w-75 mx-auto ">
+                            <div class="d-flex flex-column flex-lg-row gap-3 align-items-start">
+                                <div class="fs-1 border border-dark p-3 py-1 align-items-center rounded-circle">
+                                    <i class="fa-solid fa-person"></i>
+                                </div>
+                                <div class="d-flex flex-column">
+                                    <div class="d-flex align-items-center gap-1">
+                                        <span class="fw-bold fs-4">Rudi</span>
+                                        <span class="text-secondary">@RudiPriaSejati</span>
+                                    </div>
+                                    <p>
+                                        Tunggu gua punya banyak duit bakal gua kunjungin semua ni tempat
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+    
+                    </div>
+                    <div class="carousel-item">
+    
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+    <!-- Review End -->
+
+    <!-- Contact Start -->
+    <section id="contact">
+        <div class="container">
+            <div class="title text-center mt-5 mb-4">
+                <h1 class="fw-bold">Contact Us</h1>
+                <p class="text-secondary">
+                    Anda dapat menghubungi kami lewat media di bawah ini
+                </p>
+            </div>
+            <form>
+                <div class="row">
+                    <div class="col-12 col-lg-6">
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                            <input type="email" class="form-control p-3" id="exampleInputEmail1"
+                                placeholder="emailanda@gmail.com">
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Phone Number</label>
+                            <input type="text" class="form-control p-3" placeholder="example : 082168842123">
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Your Message</label>
+                            <textarea class="form-control p-3" name="" id="" cols="30" rows="10"
+                                placeholder="Your Message..."></textarea>
+                        </div>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary fw-bold">Submit</button>
+            </form>
+        </div>
+    </section>
+    <!-- Contact End -->
+
+    <!-- Footer Start -->
+    <footer class="p-4 bg-dark text-center text-light mt-5">
+        Copyright © 2023 <span style="color: var(--cyan);">Muhammad Za'im Muzakki</span> | All Rights Reserved
+    <!-- Footer End -->
+
+    <!-- js bootstrap -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 </body>
 </html>
